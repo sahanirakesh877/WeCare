@@ -62,7 +62,7 @@ const Header = () => {
               to="#"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
-              className="btn btn-brand ms-lg-3"
+              className="btn btn-warning text-white rounded-0  ms-lg-3"
             >
               Contact
             </Link>

@@ -3,9 +3,9 @@ import React from 'react'
 const CardShow = () => {
   return (
     <>
-   <div className="container mx-auto ">
+   <div className="container mx-auto  ">
   <div className="row justify-content-between  d-flex align-items-center py-4 ">
-    <div className="col-md-4">
+    <div className="col-md-4 ">
       <div className="card shadow">
         <div className="card-body">
           <i className="fa-solid fa-hands-holding-child" />
@@ -14,7 +14,7 @@ const CardShow = () => {
         </div>
       </div>
     </div>
-    <div className="col-md-4">
+    <div className="col-md-4 py-4">
       <div className="card shadow ">
         <div className="card-body">
           <i className="fa-solid fa-notes-medical" />
@@ -23,7 +23,7 @@ const CardShow = () => {
         </div>
       </div>
     </div>
-    <div className="col-md-4">
+    <div className="col-md-4 ">
       <div className="card shadow">
         <div className="card-body">
           <i className="fas fa-hands-helping" />

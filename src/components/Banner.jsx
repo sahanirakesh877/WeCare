@@ -1,43 +1,35 @@
-import React from 'react'
+import React from "react";
 
 const Banner = () => {
   return (
     <>
-    <div className="owl-carousel owl-theme hero-slider">
-  <div className="slide slide1">
-    <div className="container">
-      <div className="row">
-        <div className="col-12 text-center text-white">
-          <h6 className="text-white text-uppercase">
-          </h6>
-          <h1 className="display-3 my-4">Helping People with <br />Disabilities</h1>
-          <a href="#" className="btn btn-brand">Get Started</a>
-          <a href="#" className="btn btn-outline-light ms-3">Our work</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div className="slide slide2">
-    <div className="container">
-      <div className="row">
-        <div className="col-12 col-lg-10 offset-lg-1 text-white">
-          <h6 className="text-white text-uppercase">
-            get ready to help
-          </h6>
-          <h1 className="display-3 my-4">
-            Empowering People with <br />Disabilities
-          </h1>
-          <a href="#" className="btn btn-brand">Get Started</a>
-          <a href="#" className="btn btn-outline-light ms-3">Our work</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+      <div className="hero-container">
+        <div className="container  mx-auto ">
+          <div className="row  d-flex align-items-center justify-content-center">
+            <div className="col-lg-6  ">
+              <div class="left-text">
+                <h1 className="text-white">
+                  Empower disabled individuals through compassionate support.
+                </h1>
+                <p className="text-white form-control-plaintext   ">
+                  Empowering all abilities through support, advocacy, and
+                  community. Together, we create inclusivity and make a positive
+                  impact.
+                </p>
 
-      
+                <button className="btn btn-warning  rounded-0 text-white fw-semibold ">
+                  Know More
+                </button>
+              </div>
+            </div>
+            <div className="col-lg-6   d-flex align-items-center justify-content-center">
+              <img src="/disablebgremove.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;
