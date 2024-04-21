@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import { Helmet } from "react-helmet";
+import { useLocation } from "react-router-dom";
 
 const Case = () => {
+  const pathname=useLocation()
   const items = [
     <div className="project ">
       <div className="overlay" />
@@ -86,6 +88,10 @@ const Case = () => {
     568: { items: 2 },
     1024: { items: 4 },
   };
+  
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  },[pathname])
   return (
     <>
      <Helmet>
@@ -93,7 +99,7 @@ const Case = () => {
         <meta name="description" content="Learn more about our company and case at Western Australia Care Pvt. Ltd., an NDIS provider organization committed to serving the community with respect and equality. Our core goals include providing assistance to individuals with disabilities, integrating them within the community, and helping them achieve their goals." />
         <meta name="keywords" content="about, about us, case, blog company, team, mission, vision, services,review, values, Western Australia Care Pvt. Ltd., NDIS, disabilities, community, respect, equality" />  
       </Helmet>
-      <section className="bg-light" id="portfolio">
+      <section className="bg-light py-5" id="portfolio">
         <div className="container">
           <div className="row">
             <div className="col-12">

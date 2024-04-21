@@ -1,11 +1,16 @@
-import React from "react";
-import { useParams } from "react-router-dom";
+import React, { useEffect } from "react";
+import { useLocation, useParams } from "react-router-dom";
 import servicedata from "../Data/ServiceData";
 import { Helmet } from "react-helmet";
 
 const ServiceDetails = () => {
+  const pathname=useLocation()
   const { id } = useParams();
   const serviceData = servicedata.find((item) => item.id == id);
+ 
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  },[pathname])
 
   return (
     <>

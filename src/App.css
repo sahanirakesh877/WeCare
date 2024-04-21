@@ -64,12 +64,17 @@
     }
 
     .bannerimg img {
-        width: 100%;
+        width: auto;
         height: 230px;
         object-fit: cover;
     }
     .midcard{
         margin: 45px 0px;
+    }
+
+    section {
+        padding-top: 20px;
+        padding-bottom: 80px;
     }
 }
 @media (max-width: 768px) {
@@ -189,10 +194,10 @@ a:hover {
     color: gray;
 }
 
-section {
+/* section {
     padding-top: 80px;
     padding-bottom: 80px;
-}
+} */
 
 .text-brand {
     color: var(--brand) !important;
@@ -244,7 +249,7 @@ section {
 
 .social-icons a:hover {
     background-color: #fff;
-    color: var(--brand);
+    color: var(--secBrand);
 }
 
 .navbar .navbar-nav .nav-link {
@@ -624,4 +629,8 @@ input.form-control {
     border-top-right-radius:0;
 }
   
+  
+
+
+
   

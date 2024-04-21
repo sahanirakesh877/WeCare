@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import { Helmet } from "react-helmet";
+import { useLocation } from "react-router-dom";
 
 const Review = () => {
+  const pathname=useLocation()
   const items = [
     <div className="review">
       <div className="person">
@@ -68,6 +70,10 @@ const Review = () => {
     568: { items: 1 },
     1024: { items: 1 },
   };
+
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  },[pathname])
   return (
     <>
      <Helmet>
@@ -75,7 +81,7 @@ const Review = () => {
         <meta name="description" content="Learn more about our company and team at Western Australia Care Pvt. Ltd., an NDIS provider organization committed to serving the community with respect and equality. Our core goals include providing assistance to individuals with disabilities, integrating them within the community, and helping them achieve their goals." />
         <meta name="keywords" content="about, about us, case, blog company, team, mission, vision, services,review, values, Western Australia Care Pvt. Ltd., NDIS, disabilities, community, respect, equality" />  
            </Helmet>
-      <section className="bg-light" id="reviews">
+      <section className="bg-light py-5" id="reviews">
         <div className=" container">
           <AliceCarousel
             mouseTracking
