@@ -27,7 +27,7 @@ const About = () => {
           content="about, about us, case, blog company, team, mission, vision, services,review, values, Western Australia Care Pvt. Ltd., NDIS, disabilities, community, respect, equality"
         />
       </Helmet>
-      <section id="about" className="py-5">
+      <section id="about" className="py-5 aboutbg">
         <div className="container">
           <div className="row justify-content-center d-flex align-items-center ">
             <div className="col-lg-6 pb-5">

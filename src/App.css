@@ -76,6 +76,14 @@
         padding-top: 20px;
         padding-bottom: 80px;
     }
+    .welogo{
+        display: none;
+       
+    }
+    .welogo1{
+        display: none;
+      
+    }
 }
 @media (max-width: 768px) {
     .left-text h1 {
@@ -214,7 +222,7 @@ a:hover {
 }
 
 .top-nav {
-    background-color: var(--brand);
+    background-color: #4C7BAD;
     color: #fff;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -240,6 +248,7 @@ a:hover {
     height: 28px;
     display: inline-flex;
     color: #fff;
+
     background-color: rgba(255, 255, 255, 0.25);
     text-decoration: none;
     align-items: center;
@@ -629,6 +638,18 @@ input.form-control {
     border-top-right-radius:0;
 }
   
+
+
+.aboutbg{
+    background-color: #F8F9FA;
+}
+
+.welogo{
+    color: var(--brand);
+}
+.welogo1{
+    color: rgb(255, 204, 0);
+}
   
 
 

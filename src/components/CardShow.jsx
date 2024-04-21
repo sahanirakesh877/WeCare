@@ -6,7 +6,7 @@ const CardShow = () => {
       <div className="container mx-auto  ">
         <div className="row justify-content-between  d-flex align-items-center py-5 ">
           <div className="col-md-4 ">
-            <div className="card shadow border  border-warning  position-relative overflow-visible z-3   ">
+            <div className="card shadow border  position-relative overflow-visible z-3   ">
               <div className="card-body ">
                 <i className="fa-solid fa-hands-holding-child" />
                 <h5 className="card-title">Age Care</h5>
@@ -20,7 +20,7 @@ const CardShow = () => {
           </div>
 
           <div className="col-md-4 py-4 midcard">
-            <div className="card shadow  border border-warning   position-relative overflow-visible z-3">
+            <div className="card shadow  border  position-relative overflow-visible z-3">
               <div className="card-body">
                 <i className="fa-solid fa-notes-medical" />
                 <h5 className="card-title">Health Care</h5>
@@ -34,7 +34,7 @@ const CardShow = () => {
           </div>
 
           <div className="col-md-4 ">
-            <div className="card shadow  border-warning  border  position-relative overflow-visible z-3">
+            <div className="card shadow  border  position-relative overflow-visible z-3">
               <div className="card-body">
                 <i className="fas fa-hands-helping" />
                 <h5 className="card-title"> Support & Help </h5>

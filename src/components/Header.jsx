@@ -15,8 +15,16 @@ const Header = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div className="container">
-          <div className="logo">
-            <img src="/logocare1.png " />
+          <div className="d-flex align-items-center  justify-content-center gap-3">
+            <div className="logo">
+              <img src="/logocare1.png " />
+            </div>
+            <div>
+            <h5>
+              <span className="welogo">Western </span><br />
+              <span className="welogo1">Australia Care</span>
+            </h5>
+            </div>
           </div>
           <button
             className="navbar-toggler"
@@ -30,9 +38,11 @@ const Header = () => {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div className={`collapse navbar-collapse ${isNavOpen ? "show" : ""}`}>
+          <div
+            className={`collapse navbar-collapse ${isNavOpen ? "show" : ""}`}
+          >
             <ul className="navbar-nav ms-auto">
-            <li className="nav-item" onClick={closeNav}>
+              <li className="nav-item" onClick={closeNav}>
                 <Link className="nav-link" to="/">
                   Home
                 </Link>
@@ -52,16 +62,7 @@ const Header = () => {
                   Portfolio
                 </Link>
               </li>
-              <li className="nav-item" onClick={closeNav}>
-                <Link className="nav-link" to="/team">
-                  Team
-                </Link>
-              </li>
-              <li className="nav-item" onClick={closeNav}>
-                <Link className="nav-link" to="/review">
-                  Reviews
-                </Link>
-              </li>
+
               <li className="nav-item" onClick={closeNav}>
                 <Link className="nav-link" to="/blog">
                   Blog
