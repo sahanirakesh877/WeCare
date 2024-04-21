@@ -1,6 +1,7 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
+import { Helmet } from "react-helmet";
 
 const Case = () => {
   const items = [
@@ -87,6 +88,11 @@ const Case = () => {
   };
   return (
     <>
+     <Helmet>
+        <title>Disable Case | We Care</title>
+        <meta name="description" content="Learn more about our company and case at Western Australia Care Pvt. Ltd., an NDIS provider organization committed to serving the community with respect and equality. Our core goals include providing assistance to individuals with disabilities, integrating them within the community, and helping them achieve their goals." />
+        <meta name="keywords" content="about, about us, case, blog company, team, mission, vision, services,review, values, Western Australia Care Pvt. Ltd., NDIS, disabilities, community, respect, equality" />  
+      </Helmet>
       <section className="bg-light" id="portfolio">
         <div className="container">
           <div className="row">

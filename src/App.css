@@ -69,7 +69,7 @@
         object-fit: cover;
     }
     .midcard{
-        pad: 40px 0;
+        margin: 45px 0px;
     }
 }
 @media (max-width: 768px) {

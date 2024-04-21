@@ -1,8 +1,14 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   return (
     <>
+     <Helmet>
+        <title>Contact | We Care</title>
+        <meta name="description" content="Learn more about our company and team at Western Australia Care Pvt. Ltd., an NDIS provider organization committed to serving the community with respect and equality. Our core goals include providing assistance to individuals with disabilities, integrating them within the community, and helping them achieve their goals." />
+        <meta name="keywords" content="about, about us, case, blog company, team, mission, vision, services,review, values, Western Australia Care Pvt. Ltd., NDIS, disabilities, community, respect, equality" />   
+            </Helmet>
       <div
         className="modal fade"
         id="exampleModal"
@@ -12,6 +18,15 @@ const Contact = () => {
       >
         <div className="modal-dialog modal-dialog-centered modal-xl">
           <div className="modal-content">
+            <div className="modal-header">
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+
             <div className="modal-body p-0">
               <div className="container-fluid">
                 <div className="row gy-4">
@@ -28,60 +43,57 @@ const Contact = () => {
                   <div className="col-lg-8">
                     <form className="p-lg-5 col-12 row g-3">
                       <div>
-                        <h1>Get in touch</h1>
+                        <h1 className="text-brand">Get in touch with us</h1>
                         <p>
-                          Fell free to contact us and we will get back to you as
+                          Feel free to contact us and we will get back to you as
                           soon as possible
                         </p>
                       </div>
                       <div className="col-lg-6">
                         <label htmlFor="userName" className="form-label">
-                          First name
+                          Full name
                         </label>
                         <input
                           type="text"
                           className="form-control"
-                          placeholder="Enter  your First name"
+                          placeholder="Enter your Full name"
                           id="userName"
                           aria-describedby="emailHelp"
                         />
                       </div>
                       <div className="col-lg-6">
-                        <label htmlFor="userName" className="form-label">
-                          Last name
+                        <label htmlFor="phone" className="form-label">
+                          Phone
                         </label>
                         <input
-                          type="text"
+                          type="number"
                           className="form-control"
-                          placeholder="Last name"
-                          id="userName"
+                          placeholder="Your Phone Number"
+                          id="phone"
                           aria-describedby="emailHelp"
                         />
                       </div>
                       <div className="col-12">
-                        <label htmlFor="userName" className="form-label">
+                        <label htmlFor="email" className="form-label">
                           Email address
                         </label>
                         <input
                           type="email"
                           className="form-control"
                           placeholder="Email address"
-                          id="userName"
+                          id="email"
                           aria-describedby="emailHelp"
                         />
                       </div>
                       <div className="col-12">
-                        <label
-                          htmlFor="exampleInputEmail1"
-                          className="form-label"
-                        >
+                        <label htmlFor="message" className="form-label">
                           Enter Message
                         </label>
                         <textarea
-                          name
+                          name="message"
                           placeholder="Your Description please"
                           className="form-control"
-                          id
+                          id="message"
                           rows={4}
                           defaultValue={""}
                         />

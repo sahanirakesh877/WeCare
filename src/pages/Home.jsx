@@ -7,11 +7,15 @@ import Case from './Case';
 import Team from './Team';
 import Blog from './Blog';
 import Review from './Review';
+import { Helmet } from 'react-helmet';
 
 
 const Home = () => {
   return (
     <>
+         <Helmet titleTemplate="We Care" />
+        
+
       <Banner/>
       <CardShow/>
       <About/>
