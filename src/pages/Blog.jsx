@@ -9,7 +9,7 @@ const Blog = () => {
       <div className="col-12">
         <div className="intro">
           <h6>Blog</h6>
-          <h1>Disability Website Articles</h1>
+          <h1>Disability  Articles</h1>
           <p className="mx-auto">
             Disability encompasses various physical, cognitive, sensory, and emotional impairments, highlighting the diverse nature of the disability experience.
           </p>

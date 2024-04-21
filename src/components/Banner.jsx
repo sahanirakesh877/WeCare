@@ -22,8 +22,10 @@ const Banner = () => {
                 </button>
               </div>
             </div>
-            <div className="col-lg-6   d-flex align-items-center justify-content-center">
-              <img src="/disablebgremove.png" alt="" />
+            <div className="col-lg-6  d-flex align-items-center justify-content-center">
+            <div className="bannerimg">
+              <img src="/disablebgremove copy.png" alt="" className=" " />
+              </div>
             </div>
           </div>
         </div>

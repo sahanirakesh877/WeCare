@@ -16,7 +16,7 @@ const About = () => {
               <div className="row">
                 <h6 className="headtext">About Our Foundation</h6>
                 <h1>We Are In A Mission To Help Helpless</h1>
-                <p><strong>Western Care Pvt. Ltd.</strong>  is a <strong>NDIS</strong> provider organization run by professionals in order to serve the community where every person is treated equally with respect and  holds the power to create opportunities for themselves and others.</p>
+                <p><strong>Western Australia  Care Pvt. Ltd.</strong>  is a <strong>NDIS</strong> provider organization run by professionals in order to serve the community where every person is treated equally with respect and  holds the power to create opportunities for themselves and others.</p>
                 <p className="text-justify">
                   Our core goals is to provide assistance to every person with a
                   disability to intregrate them within community, with friends
@@ -33,7 +33,7 @@ const About = () => {
                 </p>
                 <div className="col-md-12">
                   <button
-                    className="btn btn-primary px-5 rounded-pill "
+                    className="btn btn-warning text-white px-5 rounded-pill "
                     onClick={handleaboutdetails} 
                   >
                     show More

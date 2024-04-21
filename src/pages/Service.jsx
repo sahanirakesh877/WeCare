@@ -13,9 +13,7 @@ const Service = () => {
                 <h6 className="headtext">Our Service</h6>
                 <h1>What We Do?</h1>
                 <p className="mx-auto">
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classical Latin literature
-                  from 45 BC, making it over 2000 years old
+                Highlighting the invaluable nature of disability services, our offerings are meticulously crafted to cater to diverse needs, ensuring inclusivity and empowerment for all individuals with disabilities.
                 </p>
               </div>
             </div>

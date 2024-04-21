@@ -1,18 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap");
 
-
 /* hero section start  */
- .hero-container {
-   background-color: #4c7bad;
-   position: relative;
-   min-height: 85vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-
+.hero-container {
+    background-color: #4c7bad;
+    position: relative;
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
- .hero-container::after {
-    content: '';
+.hero-container::after {
+    content: "";
     border-top-left-radius: 50% 100%;
     border-top-right-radius: 50% 100%;
     position: absolute;
@@ -21,26 +19,31 @@
     background-color: #ffffff;
     height: 9%;
 }
-.left-text h1{
+.left-text h1 {
     font-size: 48px;
     font-weight: bold;
-}  
-.left-text p{
+}
+.left-text p {
     font-size: 18px;
     font-weight: thin;
     font-style: oblique;
     padding-bottom: 15px;
 }
 
+.bannerimg {
+    width: auto;
+    height: 480px;
+}
 
-
-
+.bannerimg img {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
 
 @media (max-width: 567px) {
-
-
     .hero-container::after {
-        content: '';
+        content: "";
         border-top-left-radius: 50% 100%;
         border-top-right-radius: 50% 100%;
         position: absolute;
@@ -49,32 +52,39 @@
         background-color: #ffffff;
         height: 4%;
     }
-   
 
     .left-text h1 {
-        font-size:2rem;
-        padding-top: 25px ;
+        font-size: 2rem;
+        padding-top: 25px;
         color: white;
+    }
+    .bannerimg {
+        width: auto;
+        height: 500px;
+    }
+
+    .bannerimg img {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+    }
+    .midcard{
+        pad: 40px 0;
     }
 }
 @media (max-width: 768px) {
-   
-
     .left-text h1 {
-        font-size:2rem;
-        padding-top: 70px ;
+        font-size: 2rem;
+        padding-top: 70px;
         color: white;
     }
-    .left-text p{
-        font-size:16px;
+    .left-text p {
+        font-size: 16px;
         color: white;
         padding-top: 10px;
         padding-bottom: 20px;
-
     }
 }
-
-
 
 /* /* hero section end   */
 
@@ -309,8 +319,6 @@ section {
     width: 90px;
 }
 
-
-
 /* project or case section  */
 .project {
     position: relative;
@@ -321,7 +329,6 @@ section {
 .project h6 {
     font-weight: 400;
 }
-
 
 .project .overlay {
     width: 100%;
@@ -338,17 +345,14 @@ section {
     bottom: 10%;
 }
 
-
 .project h4 {
     color: #fff;
 }
-.project-image{
-    width: 100%; 
-    height: 300px; 
+.project-image {
+    width: 100%;
+    height: 300px;
     object-fit: cover;
 }
-
-
 
 /* team section  start */
 
@@ -584,3 +588,40 @@ input.form-control {
 .item4 {
     grid-area: 2 / 2 / 3 / 3;
 }
+
+/* webkit scroll bar color */
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background-color: #58c4f2;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#fed700, #016492);
+    border-radius: 10px;
+}
+
+/* card shows  */
+/* .clip-top {
+    clip-path: polygon(51% 81%, 0% 100%, 100% 100%);
+  } */
+  .card-container {
+    position: relative;
+  }
+  
+  .pentagon {
+    clip-path: polygon(50% 79%, 0% 100%, 100% 100%);
+    position:absolute;
+    background:var(--brand);
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    z-index: 0;
+}
+.card{
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+}
+  
+  
