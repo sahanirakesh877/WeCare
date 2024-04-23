@@ -10,7 +10,7 @@ const Aboutdetails = () => {
   return (
     <>
      <Helmet>
-        <title>AboutDetails | We Care</title>
+        <title>AboutDetails | WA Care</title>
         <meta name="description" content="Learn more about our company and team at Western Australia Care Pvt. Ltd., an NDIS provider organization committed to serving the community with respect and equality. Our core goals include providing assistance to individuals with disabilities, integrating them within the community, and helping them achieve their goals." />
         <meta name="keywords" content="about, about us, case, blog company, team, mission, vision, services,review, values, Western Australia Care Pvt. Ltd., NDIS, disabilities, community, respect, equality" />  
       </Helmet>
@@ -37,7 +37,11 @@ const Aboutdetails = () => {
                   Each and every team member will be fully educated and trained
                   about our organisation values and performs task accordingly.
                 </p>
-                <h6>Short Term Goals</h6>
+                <div className='py-5 text-wrap '>
+              <h3>Vision Statement</h3>
+               <p className="text-justify">We envision a world where everyone is treated as an individual  and with respect, and  where  all  people  hold the power to create opportunities for themselves and others.</p>
+              </div>
+                {/* <h6>Short Term Goals</h6>
                 <p>Our topmost priority is to  satisfy the NDIS clients and customers. Our short term  goals include  but not  limited to:</p>
                 <ul>
                     <li>grow our network in the community.</li>
@@ -52,7 +56,7 @@ const Aboutdetails = () => {
                     <li>Taking our certified NDIS provider into the next level of registration. </li>
                     <li>Increasing the NDIS participants in the next 2 years by 100%.</li>
                     <li>Delivering conferences and short term relevant qualifications to customers.</li>
-                </ul>
+                </ul> */}
                
                
               </div>
@@ -84,10 +88,7 @@ const Aboutdetails = () => {
                   />
                 </div>
               </div>
-              <div className='py-5 text-wrap '>
-              <h3>Vision Statement</h3>
-               <p className="text-justify">We envision a world where everyone is treated as an individual  and with respect, and  where  all  people  hold the power to create opportunities for themselves and others.</p>
-              </div>
+             
               
             </div>
           </div>

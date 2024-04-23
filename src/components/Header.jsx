@@ -68,6 +68,11 @@ const Header = () => {
                   Blog
                 </Link>
               </li>
+              <li className="nav-item" onClick={closeNav}>
+                <Link className="nav-link" to="/ndis-services">
+                 NDIS
+                </Link>
+              </li>
             </ul>
             <Link
               to="#"

@@ -17,7 +17,7 @@ const Banner = () => {
                   impact.
                 </p>
 
-                <button className="btn btn-warning  rounded-0 text-white fw-semibold ">
+                <button className="btn herobtn rounded-0 text-white fw-semibold ">
                   Know More
                 </button>
               </div>

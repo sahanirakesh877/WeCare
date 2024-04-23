@@ -14,6 +14,7 @@ import Review from "./pages/Review";
 import Home from "./pages/Home";
 import Aboutdetails from "./pages/Aboutdetails";
 import ServiceDetails from "./pages/ServiceDetails";
+import Ndis from "./pages/Ndis";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
         <Route path="/team" element={<Team />} />
         <Route path="/review" element={<Review />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/ndis-services" element={<Ndis/>} />
         <Route path="/aboutdetails" element={<Aboutdetails />} />
         <Route path="/service/:id" element={<ServiceDetails/>} />
 

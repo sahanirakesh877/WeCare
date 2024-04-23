@@ -17,7 +17,7 @@ const Home = () => {
   },[pathname])
   return (
     <>
-      <Helmet titleTemplate="We Care" />
+      <Helmet titleTemplate="WA Care" />
       <Banner />
       <CardShow />
       <About />
