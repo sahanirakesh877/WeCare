@@ -43,7 +43,9 @@ const Footer = () => {
                   <br />
                   ABN: 65674293559 <br />
                   ACN:674293559
+                  <p><i className="bx bxs-envelope" />info@wacares.com.au</p>
                 </p>
+              
               </div>
             </div>
           </div>

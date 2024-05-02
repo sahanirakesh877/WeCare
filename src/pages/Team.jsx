@@ -28,45 +28,46 @@ const Team = () => {
                 <h6>Team</h6>
                 <h1>Partnership and Teams</h1>
                 <p className="mx-auto">
-                Our team at WA Care is dedicated to NDIS support, coordinating services and facilitating community access for individuals with disabilities.
+                  Our team at WA Care is dedicated to NDIS support, coordinating
+                  services and facilitating community access for individuals
+                  with disabilities.
                 </p>
               </div>
             </div>
           </div>
           <div className="row justify-content-center">
-    <div className="col-lg-4 col-md-8">
-        <div className="profile-card text-center d-flex justify-content-center flex-column  align-items-center">
-            <div className="profile-icon">
-                <img src="/teammale1.webp" alt="" />
+            <div className="col-lg-4 col-md-8">
+              <div className="profile-card text-center d-flex justify-content-center flex-column  align-items-center">
+                <div className="profile-icon">
+                  <img src="/teammale1.webp" alt="" />
+                </div>
+                <div className="profile-name">
+                  <h5>Nishan Shrestha</h5>
+                </div>
+              </div>
             </div>
-            <div className="profile-name">
-                <h5>Nishan Shrestha</h5>
-            </div>
-        </div>
-    </div>
-    <div className="col-lg-4 col-md-8">
-        <div className="profile-card text-center d-flex justify-content-center flex-column  align-items-center">
-            <div className="profile-icon">
-            <img src="/femaleteam.png" alt="" />
-            </div>
-            <div className="profile-name">
-                <h5 >Kalpana Shrestha</h5>
-            </div>
-        </div>
-    </div>
-    <div className="col-lg-4 col-md-8">
-        <div className="profile-card text-center d-flex justify-content-center flex-column  align-items-center ">
-            <div className="profile-icon">
-            <img src="/teammale1.webp" alt="" />
-            </div>
-            <div className="profile-name">
-                <h5> Srijana Sharma</h5>
-            </div>
-        </div>
-    </div>
-    
-</div>
 
+            <div className="col-lg-4 col-md-8">
+              <div className="profile-card text-center d-flex justify-content-center flex-column  align-items-center ">
+                <div className="profile-icon">
+                  <img src="/teammale1.webp" alt="" />
+                </div>
+                <div className="profile-name">
+                  <h5> Srijana Sharma</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-8">
+              <div className="profile-card text-center d-flex justify-content-center flex-column  align-items-center">
+                <div className="profile-icon">
+                  <img src="/femaleteam.png" alt="" />
+                </div>
+                <div className="profile-name">
+                  <h5>Kalpana Shrestha</h5>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>

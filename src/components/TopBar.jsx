@@ -8,8 +8,8 @@ const TopBar = () => {
   <div className="container">
     <div className="row justify-content-between">
       <div className="col-auto">
-        <p><i className="bx bxs-envelope" />disability@gmail.com</p>
-        <p><i className="bx bxs-phone-call" /> 9704501215</p>
+        <p><i className="bx bxs-envelope" />info@wacares.com.au</p>
+        <p><i className="bx bxs-phone-call" />+61 452 442 098</p>
       </div>
       <div className="col-auto social-icons d-none d-md-block  ">
         <a href="#" className=''><i className="bx bxl-facebook" /></a> 
